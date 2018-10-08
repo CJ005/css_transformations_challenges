@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>CSS animations and transformations</title>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+  <img src="https://placebear.com/cache/150-200.jpg" alt="">
+
+</body>
+
+</html>
+
+
+img { 
+  animation: spin 1s; 
+  infinite linear; 
+
+} 
+
+@keyframes spin { 
+
+  from { 
+    transform: rotate(0); 
+ } 
+
+  to { 
+    transform: rotate(360deg); 
+  } 
+}
